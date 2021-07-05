@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders AppLayout correctly 1`] = `
+<div>
+  <div
+    class="header"
+  >
+    <div
+      class="logo"
+    >
+      <span
+        class="cursor--pointer"
+        data-testid="logo-link"
+      >
+        CCDC
+      </span>
+    </div>
+  </div>
+  <main
+    class="content"
+  />
+  <footer
+    class="footer"
+  >
+    <span>
+      CCDC
+    </span>
+    <br />
+    2021
+  </footer>
+</div>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TitleListPanel it renders correctly 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <h2>
+      Records
+    </h2>
+    <div
+      class="record"
+    >
+      <div
+        class="record-row odd"
+      >
+        Test title
+      </div>
+    </div>
+  </div>
+</div>
+`;

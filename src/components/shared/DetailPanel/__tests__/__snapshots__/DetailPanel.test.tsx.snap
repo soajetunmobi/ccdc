@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailPanel it renders correctly 1`] = `
+<div>
+  <div>
+    <h2>
+      Detail
+    </h2>
+    <div
+      class="detail-row"
+    >
+      <div
+        class="detail-label"
+        tabindex="0"
+      >
+        Publication year:
+      </div>
+      <div>
+        2021
+      </div>
+    </div>
+    <div
+      class="detail-row"
+    >
+      <div
+        class="detail-label"
+        tabindex="1"
+      >
+        Publisher:
+      </div>
+      <div>
+        Test publisher
+      </div>
+    </div>
+    <div
+      class="detail-row"
+    >
+      <div
+        class="detail-label"
+        tabindex="2"
+      >
+        Subjects:
+      </div>
+      <div>
+        Test subject
+      </div>
+    </div>
+    <div
+      class="detail-row"
+    >
+      <div
+        class="detail-label"
+        tabindex="3"
+      >
+        URL:
+      </div>
+      <div>
+        https://test.com/test
+      </div>
+    </div>
+    <div
+      class="margin-top--20"
+    >
+      <span
+        class="button"
+        data-testid="back-button"
+        role="button"
+        tabindex="4"
+      >
+        Back
+      </span>
+    </div>
+  </div>
+</div>
+`;

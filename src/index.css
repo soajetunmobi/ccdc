@@ -1,13 +1,122 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --footer-height: 60px;
+  --logo-height: 4rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+
+.logo {
+  font-size: 2rem;
+  text-align: center;
+  line-height: var(--logo-height);
+  height: var(--logo-height);
+  margin: 0;
+
+}
+
+.logo > a{
+  text-decoration: none;
+}
+
+body{
+  margin: 0;
+  font-family: "Trebuchet MS", sans-serif, 'Droid Sans', 'Helvetica Neue';
+}
+
+.content {
+  --offset: calc(var(--footer-height) + var(--logo-height));
+  min-height: calc(100vh - var(--offset));
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  height: var(--footer-height);
+  padding: 5px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #4c4c4c;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.button {
+  padding: 10px 30px;
+  background-color: #595959;
+  cursor: pointer;
+  color: #fff;
+}
+
+.button:hover {
+  padding: 10px 30px;
+  background-color: #938989;
+  cursor: pointer;
+  color: #fff;
+}
+
+.margin-top--20 {
+  margin-top: 20px;
+}
+
+.detail-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.detail-label {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.record-row {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 10px;
+  border: solid 1px transparent;
+}
+
+.record-row:hover {
+  border: solid 1px #938989;
+}
+
+.even {
+  background-color: #EBECF0;
+}
+
+
+
+
+
+
+
+
+
+
